@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Bảng công việc */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Trạng thái */
+.status {
+    text-align: center;
+}
+
+.status span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.status .chua-bat-dau {
+    background-color: #f44336; /* Màu đỏ cho "Chưa bắt đầu" */
+}
+
+.status .dang-thuc-hien {
+    background-color: #ff9800; /* Màu cam cho "Đang thực hiện" */
+}
+
+.status .hoan-thanh {
+    background-color: #4CAF50; /* Màu xanh lá cho "Hoàn thành" */
+}
+
+.status .cho-duyet {
+    background-color: #2196F3; /* Màu xanh dương cho "Chờ duyệt" */
+}
+
+.status .da-huy {
+    background-color: #9E9E9E; /* Màu xám cho "Đã hủy" */
+}
+
+.status .dang-xem-xet {
+    background-color: #FF5722; /* Màu cam đậm cho "Đang xem xét" */
+}
+
+/* Cột Sửa */
+button
