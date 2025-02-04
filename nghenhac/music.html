@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Nhạc</title>
+    <style>
+        /* Căn giữa nội dung */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        /* Tùy chỉnh thẻ audio */
+        audio {
+            width: 100%;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        /* Tạo hiệu ứng hover cho thẻ audio */
+        audio:hover {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Đoạn text khi trình duyệt không hỗ trợ audio */
+        .no-audio {
+            font-size: 1rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h6>Lựa chọn của em</h6>
+        <audio controls>
+            <source src="Nhacbuon/Lựa Chọn Của Em  buitruonglinh.mp3" type="audio/mp3">
+            <p class="no-audio">Trình duyệt của bạn không hỗ trợ thẻ audio.</p>
+        </audio>
+    </div>
+</body>
+</html>
