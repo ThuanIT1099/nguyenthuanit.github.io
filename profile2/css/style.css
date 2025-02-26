@@ -3,7 +3,7 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background: #FFFFFF    ;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    background: #0066FF;
 }
 
 .wrapper .sidebar-header,
