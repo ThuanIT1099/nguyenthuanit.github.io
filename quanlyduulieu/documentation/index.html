@@ -480,43 +480,60 @@ Item 5 text etc
 		<li>Sed vitae magna. Aliquam faucibus, felis ullamcorper feugiat semper, tortor leo tincidunt nibh, a faucibus lorem magna a nisi. Pellentesque habitant morbi tristique senectus et netus et.</li>
 	</ul>
 </div>
-</pre>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
 
-<h3>Toggle Example</h3>
-<pre class="brush:css">
-<dl class="faqs">				
-<dt>Lorem ipsum dolor sit amet, consectetuer</dt>
-<dd>Lorem ipsum dolor sit amet. Integer tincidunt.</dd>
+        /* Kích thước */
+        .small { font-size: 12px; padding: 5px 10px; }
+        .large { font-size: 20px; padding: 15px 30px; }
 
-<dt>Brem ipsum dolor sit amet, consectetuer</dt>
-<dd>Borem ipsum dolor sit amet. Integer tincidunt.</dd>
-</dl>
-</pre>
+        /* Màu sắc */
+        .skyblue { background-color: skyblue; color: white; }
+        .blue { background-color: blue; color: white; }
+        .green { background-color: green; color: white; }
+        .yellow { background-color: yellow; color: black; }
+        .orange { background-color: orange; color: white; }
+        .red { background-color: red; color: white; }
+        .magenta { background-color: magenta; color: white; }
+        .black { background-color: black; color: white; }
 
-<h3>Buttons Example</h3>
-<pre class="brush:css">
-<p>
-<button type="submit" class="small">Small</button> 
-<button type="submit">Default</button> 
-<button type="submit" class="large">Large</button>
-</p>
-<p>
-<button type="submit">Button</button> 
-<button type="submit" class="skyblue">Button</button> 
-<button type="submit" class="blue">Button</button>
-</p>
-<p>
-<button type="submit" class="green">Button</button> 
-<button type="submit" class="yellow">Button</button> 
-<button type="submit" class="orange">Button</button>
-</p>
-<p>
-<button type="submit" class="red">Button</button> 
-<button type="submit" class="magenta">Button</button> 
-<button type="submit" class="black">Button</button>
-</p>
-</pre>
+        /* Hiệu ứng hover */
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
 
+    <p>
+        <button type="submit" class="small">Small</button> 
+        <button type="submit">Default</button> 
+        <button type="submit" class="large">Large</button>
+    </p>
+    <p>
+        <button type="submit">Button</button> 
+        <button type="submit" class="skyblue">Button</button> 
+        <button type="submit" class="blue">Button</button>
+    </p>
+    <p>
+        <button type="submit" class="green">Button</button> 
+        <button type="submit" class="yellow">Button</button> 
+        <button type="submit" class="orange">Button</button>
+    </p>
+    <p>
+        <button type="submit" class="red">Button</button> 
+        <button type="submit" class="magenta">Button</button> 
+        <button type="submit" class="black">Button</button>
+    </p>
+
+</body>
 <h3>Boxes</h3>
 <pre class="brush:css">
 
