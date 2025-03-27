@@ -61,6 +61,59 @@
 	<div id="documenter_content">
 	<section id="documenter_cover"><h1>Data Cloud IT).</h1><h2>Trung tâm dữu liệu IT</h2><hr><ul>By: Nguyễn Minh Thuận DEV </li><li><a href=""></a></li><li>Email: <a href="mailto:Nguyenminhthuan101096@gmail.com">Nguyenminhthuan101096@gmail.com</a></li></ul>. </section><section id="html_structure">
 	<h3>Home Slider</h3><hr class="notop"></h3>
+    <style>
+        .button-container {
+            display: flex;
+            flex-direction: row; /* Mặc định xếp theo hàng ngang */
+            gap: 15px; /* Khoảng cách giữa các button */
+            justify-content: center; /* Căn giữa các button */
+        }
+
+        button {
+            background-color: #808080; /* Màu xám */
+            color: white; /* Màu chữ trắng */
+            border: none; /* Không có viền */
+            padding: 10px 40px; /* Thêm khoảng cách bên trong button */
+            font-size: 16px; /* Kích thước chữ */
+            cursor: pointer; /* Hiển thị con trỏ khi hover */
+            border-radius: 5px; /* Bo góc cho button */
+        }
+
+        button:hover {
+            background-color: #666666; /* Màu xám đậm khi hover */
+        }
+
+        /* Đảm bảo nút hoạt động như một liên kết */
+        .button-container a {
+            text-decoration: none; /* Bỏ gạch chân mặc định của liên kết */
+            color: white; /* Màu chữ trắng */
+        }
+
+        /* Media query để xếp các nút theo chiều dọc trên màn hình nhỏ */
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column; /* Xếp các button theo chiều dọc */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button-container">
+        <a href="https://www.example1.com">
+            <button>Button 1</button>
+        </a>
+        <a href="https://www.example2.com">
+            <button>Button 2</button>
+        </a>
+        <a href="https://www.example3.com">
+            <button>Button 3</button>
+        </a>
+        <a href="https://www.example4.com">
+            <button>Button 4</button>
+        </a>
+    </div>
+
 <p>test</p>
 <h3>Flex Slider</h3>
 <p>Test</p>
